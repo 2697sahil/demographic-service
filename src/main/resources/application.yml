@@ -1,0 +1,21 @@
+server:
+  port: 9000
+
+logging:
+  level:
+    web: DEBUG
+#    org.springframework.*: DEBUG
+
+aws:
+  dynamodb:
+    accessKey: accessKey
+    secretKey: secretKey
+    endpoint: http://localhost:8000
+    region: ap-south-1
+
+spring:
+  devtools:
+    restart:
+      enabled: false
+
+
